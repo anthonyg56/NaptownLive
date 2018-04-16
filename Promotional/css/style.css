@@ -1,0 +1,395 @@
+/* line 1, ../scss/base/_reset.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 1, ../scss/base/_base.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../scss/base/_base.scss */
+body {
+  background-image: linear-gradient(to right, #000080, #1e1a8a, #312e93, #42409b, #5252a3);
+  padding-top: 0;
+}
+
+/* line 2, ../scss/layout/_home.scss */
+header {
+  margin: 0 auto 0 auto;
+  padding: 25px 0 25px 0;
+  color: white;
+  font-family: "lato";
+}
+/* line 7, ../scss/layout/_home.scss */
+header h1 {
+  font-weight: 700;
+  font-size: 4.5em;
+  letter-spacing: 3px;
+}
+
+/* line 3, ../scss/layout/_artistRefine.scss */
+#wallpaper {
+           /*
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	top: 0;
+ 	background: url("../img/covers/cover30.jpg") no-repeat 50% 50%;
+  	display: table;
+	background-size: cover;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;*/
+}
+/* line 15, ../scss/layout/_artistRefine.scss */
+#wallpaper #art {
+  padding: 150px 0 0 0;
+}
+/* line 18, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aTitle {
+  margin: 50px auto;
+}
+/* line 21, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aTitle h1 {
+  color: #DAA520;
+  font-family: 'lato';
+  font-size: 8em;
+  font-weight: 600;
+}
+/* line 32, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aContent #boxSection {
+  box-shadow: -20px 0 15px rgba(0, 0, 0, 0.2);
+}
+/* line 37, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aContent #boxSection .row .boxes {
+  height: 250px;
+  /*border: 2px solid $primary-color;*/
+}
+/* line 41, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aContent #boxSection .row .boxes h3 {
+  color: white;
+  font-family: 'roboto';
+  font-size: 3em;
+  font-weight: 700;
+  margin: 0!important;
+  padding: 100px 0;
+}
+/* line 50, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aContent #boxSection .row .boxes h3:hover {
+  color: goldenrod;
+}
+/* line 54, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aContent #boxSection .row .boxes a {
+  text-decoration: none;
+}
+/* line 60, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aContent #boxSection .row #box1 {
+  background-image: url("../img/covers/bankroll.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 66, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aContent #boxSection .row #box2 {
+  background-image: url("../img/covers/cover23.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 72, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aContent #boxSection .row #box3 {
+  background-image: url("../img/covers/cover7.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: none;
+}
+/* line 79, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aContent #boxSection .row #box4 {
+  background-image: url("../img/Artist/bands/trip.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 85, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aContent #boxSection .row #box5 {
+  background-image: url("../img/Artist/hiphop/battles.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 91, ../scss/layout/_artistRefine.scss */
+#wallpaper #art #aContent #boxSection .row #box6 {
+  background-image: url("../img/covers/cover11.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 3, ../scss/layout/_about.scss */
+#about_form {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/covers/backgrounds/indycircle.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+/* line 14, ../scss/layout/_about.scss */
+#about_form .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 760px;
+  height: 400px;
+  background: rgba(0, 0, 128, 0.7);
+  padding: 0;
+  margin: 0;
+}
+/* line 26, ../scss/layout/_about.scss */
+#about_form .container .form_content {
+  padding: 40px 30px;
+  color: white;
+  font-family: "lato";
+  letter-spacing: 1px;
+}
+/* line 32, ../scss/layout/_about.scss */
+#about_form .container .form_content a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: navy;
+  background-color: goldenrod;
+  border-radius: 25px;
+  text-decoration: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+}
+/* line 45, ../scss/layout/_about.scss */
+#about_form .container .login_form {
+  background-color: white;
+  height: 420px!important;
+  top: -15px;
+  box-shadow: -20px 0 15px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+/* line 52, ../scss/layout/_about.scss */
+#about_form .container .login_form h1 {
+  color: navy;
+  font-weight: 500;
+}
+/* line 59, ../scss/layout/_about.scss */
+#about_form .container .login_form form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: 2px solid navy;
+  border-radius: 25px;
+  background-color: transparent;
+  outline: none;
+  font-size: 1.5em;
+}
+/* line 72, ../scss/layout/_about.scss */
+#about_form .container .login_form form input:hover {
+  border: 2px solid goldenrod;
+}
+/* line 78, ../scss/layout/_about.scss */
+#about_form .container .form_content, #about_form .container .login_form {
+  position: relative;
+  width: 50%;
+  height: 350px;
+  float: left;
+  box-sizing: border-box;
+}
+
+/* line 2, ../scss/layout/_nav.scss */
+#head {
+  background-color: transparent;
+  padding: 10px 0 10px 0;
+  border: none;
+  margin: 0;
+}
+/* line 7, ../scss/layout/_nav.scss */
+#head .navbar-header {
+  padding-top: 1px;
+  padding-right: 20px;
+}
+/* line 11, ../scss/layout/_nav.scss */
+#head .navbar-header a:hover {
+  text-decoration: none;
+  color: #005fb2;
+}
+/* line 16, ../scss/layout/_nav.scss */
+#head .navbar-header a {
+  font-family: 'Lato';
+  font-weight: 750;
+  font-size: 2em;
+  color: #FFDF00;
+}
+/* line 27, ../scss/layout/_nav.scss */
+#head .navbar-collapse .nav {
+  float: none;
+  margin: 0 auto;
+  display: table;
+  table-layout: fixed;
+}
+/* line 33, ../scss/layout/_nav.scss */
+#head .navbar-collapse .nav .active {
+  color: goldenrod;
+  border-bottom: 5px solid;
+}
+/* line 38, ../scss/layout/_nav.scss */
+#head .navbar-collapse .shrink {
+  background-color: #f4f4f4;
+}
+/* line 41, ../scss/layout/_nav.scss */
+#head .navbar-collapse .shrink a {
+  color: white;
+}
+/* line 46, ../scss/layout/_nav.scss */
+#head .navbar-collapse a {
+  font-family: 'Lato';
+  font-weight: 750;
+  font-size: 1.75em;
+  padding-right: 25px!important;
+  padding-top: 50px;
+  color: white;
+}
+/* line 55, ../scss/layout/_nav.scss */
+#head .navbar-collapse a:hover {
+  color: goldenrod;
+}
+/* line 59, ../scss/layout/_nav.scss */
+#head .navbar-collapse #navLogo {
+  padding: 0!important;
+}
+
+@media (max-width: 768px) {
+  /* line 70, ../scss/layout/_nav.scss */
+  #head .navbar-collapse {
+    background-color: #e4e4e4;
+    float: right;
+  }
+  /* line 74, ../scss/layout/_nav.scss */
+  #head .navbar-collapse #navLogo {
+    display: none;
+  }
+}
+/* line 4, ../scss/modules/_buttons.scss */
+#abtBtn .btn {
+  margin: 50px;
+  background-color: transparent;
+  border-color: white;
+  padding: 15px 45px 15px 45px;
+}
+/* line 9, ../scss/modules/_buttons.scss */
+#abtBtn .btn a {
+  color: white;
+  font-size: 2em;
+  font-weight: 800;
+  font-family: 'lato';
+  text-decoration: none;
+}
+/* line 18, ../scss/modules/_buttons.scss */
+#abtBtn .btn:hover {
+  background-color: white;
+}
+/* line 21, ../scss/modules/_buttons.scss */
+#abtBtn .btn:hover a {
+  color: black;
+  text-decoration: none;
+}
+/* line 27, ../scss/modules/_buttons.scss */
+#abtBtn .btn:visited {
+  border-color: white;
+}
+
+/* line 34, ../scss/modules/_buttons.scss */
+#typeBtn button {
+  margin: 50px;
+  background-color: goldenrod;
+  border-color: goldenrod;
+  padding: 15px 45px 15px 45px;
+}
+/* line 39, ../scss/modules/_buttons.scss */
+#typeBtn button a {
+  color: black;
+  font-size: 2em;
+  font-weight: 800;
+  font-family: 'lato';
+  text-decoration: none;
+}
+/* line 48, ../scss/modules/_buttons.scss */
+#typeBtn .btn:hover {
+  background-color: goldenrod;
+}
+/* line 51, ../scss/modules/_buttons.scss */
+#typeBtn .btn:hover a {
+  color: black;
+  text-decoration: none;
+}
+/* line 57, ../scss/modules/_buttons.scss */
+#typeBtn .btn:visited {
+  border-color: white;
+}
+
+/* line 64, ../scss/modules/_buttons.scss */
+#referralBtn button {
+  margin: 50px;
+  background-color: goldenrod;
+  border-color: goldenrod;
+  padding: 15px 45px 15px 45px;
+}
+/* line 69, ../scss/modules/_buttons.scss */
+#referralBtn button a {
+  color: black;
+  font-size: 2em;
+  font-weight: 800;
+  font-family: 'lato';
+  text-decoration: none;
+}
+/* line 78, ../scss/modules/_buttons.scss */
+#referralBtn .btn:hover {
+  background-color: goldenrod;
+}
+/* line 81, ../scss/modules/_buttons.scss */
+#referralBtn .btn:hover a {
+  color: black;
+  text-decoration: none;
+}
+/* line 87, ../scss/modules/_buttons.scss */
+#referralBtn .btn:visited {
+  border-color: white;
+}
+
+/* line 2, ../scss/modules/_components.scss */
+#formTitle {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+/* line 5, ../scss/modules/_components.scss */
+#formTitle h2 {
+  color: white;
+  font-weight: 800;
+  font-family: 'lato';
+  font-size: 3em;
+}
+
+/* line 15, ../scss/modules/_components.scss */
+#form {
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+/* line 22, ../scss/modules/_components.scss */
+#form form {
+  padding: 15px 0 15px 0;
+  width: 75%;
+}

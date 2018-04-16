@@ -1,0 +1,104 @@
+
+
+#wallpaper{/*
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	top: 0;
+ 	background: url("../img/covers/cover30.jpg") no-repeat 50% 50%;
+  	display: table;
+	background-size: cover;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;*/
+	#art{
+		padding: 150px 0 0 0;
+
+		#aTitle{
+			margin: 50px auto;
+
+			h1{
+				color: #DAA520;
+				font-family: 'lato';
+				font-size: 8em;
+				font-weight: 600;
+
+			}
+		}
+
+		#aContent{
+
+			#boxSection{
+				box-shadow: -20px 0 15px rgba(0, 0, 0, .2);
+
+				.row{
+
+					.boxes{
+						height: 250px;
+						/*border: 2px solid $primary-color;*/
+
+							h3{
+								color: $primary-color;
+								font-family: 'roboto';
+								font-size: 3em;
+								font-weight: 700;
+								margin: 0!important;
+								padding: 100px 0;
+							}
+
+							h3:hover{
+								color: $secondary-color;
+							}
+
+							a{
+								text-decoration: none;
+							}
+
+					}
+
+					#box1{
+						background-image: url('../img/covers/bankroll.jpg') ;
+						background-size: cover;
+						background-position: center;
+					}
+
+					#box2{
+						background-image: url('../img/covers/cover23.jpg') ;
+						background-size: cover;
+						background-position: center;
+					}
+
+					#box3{
+						background-image: url('../img/covers/cover7.jpg') ;
+						background-size: cover;
+						background-position: center;
+						overflow: none;
+					}
+
+					#box4{
+						background-image: url('../img/Artist/bands/trip.jpg') ;
+						background-size: cover;
+						background-position: center;
+					}
+
+					#box5{
+						background-image: url('../img/Artist/hiphop/battles.jpg');
+						background-size: cover;
+						background-position: center;
+					}
+
+					#box6{
+						background-image: url('../img/covers/cover11.jpg') ;
+						background-size: cover;
+						background-position: center;
+					}
+				}	
+			}
+		}
+	}
+
+	#artistProfile{
+		margin: 75px auto;
+	}
+}
